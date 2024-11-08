@@ -56,3 +56,17 @@ h3 {
   border: 1px solid #c59100;
   text-align: center;
 }
+
+.cats-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cats-container img {
+  margin: 25px;
+  max-width: 100%;
+  height: auto;
+}
+
