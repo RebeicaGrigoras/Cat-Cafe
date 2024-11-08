@@ -29,6 +29,30 @@ h1 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   opacity: 0.7;
+}
+
+h2 {
+  color: #c59100;
+  text-align: center;
+  margin: 40px 0;
+}
+
+h3 {
+  color: white;
+}
+
+.visit-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.visit-box {
+  flex: 1;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #c59100;
+  text-align: center;
 }
