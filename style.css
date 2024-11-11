@@ -1,5 +1,6 @@
 body {
   background-color: #23201f;
+  font-family: Poppins, sans-serif;
 }
 
 .navigation-bar {
@@ -16,6 +17,12 @@ li {
   display: inline-block;
   margin-top: 10px;
   margin-right: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+li:hover {
+  text-decoration: overline;
 }
 
 h1 {
@@ -38,10 +45,12 @@ h2 {
   color: #c59100;
   text-align: center;
   margin: 40px 0;
+  font-weight: 600;
 }
 
 h3 {
   color: white;
+  font-weight: 500;
 }
 
 .visit-container {
@@ -69,4 +78,3 @@ h3 {
   max-width: 100%;
   height: auto;
 }
-
